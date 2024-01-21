@@ -16,13 +16,13 @@ Allows colaborative coding
 
 ## How to create a branch using Git commands
 
-i. Creating a branch
+  1 .Creating a branch
 'bash
 
      git branch "branchname"
 
 
-ii. Switching between branches
+2. Switching between branches
 ' bash
 
      git switch "branchname"
@@ -34,19 +34,19 @@ ii. Switching between branches
 
      git checkout -b "branchname"
 
-iii. Merging
+3 .Merging
 'bash
 
      git merge "sourcebranch"
 
-iv. Conflicts and errors
+4.Conflicts and errors
 
 'bash
 
      git mergetool
-List all branches
+5.List all branches
 
-A ist of extra commands
+6.A ist of extra commands
 'bash
 
     git branch
@@ -66,3 +66,8 @@ List unmerged commits
 'bash
 
     git branch--no-merged
+    
+#### Bonus Command
+'''  code
+<h1>git log</h1>
+'''
