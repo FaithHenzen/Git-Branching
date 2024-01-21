@@ -17,37 +17,52 @@ Allows colaborative coding
 ## How to create a branch using Git commands
 
 i. Creating a branch
-''' bash
+'bash
+
      git branch "branchname"
-'''
+
 
 ii. Switching between branches
-''' bash
-     git switch "branchname"
-     git checkout "branchname" 
-'''
-     Dirrectly switching to a new branch
+' bash
 
-''' bash
-     git checkout -b branchname
+     git switch "branchname"
+     
+     git checkout "branchname" 
+'
+     Dirrectly switching to a new branch
+'bash
+
+     git checkout -b "branchname"
 
 iii. Merging
-''' bash
+'bash
+
      git merge "sourcebranch"
-'''
 
 iv. Conflicts and errors
-''' bash
-     git mergetool
-'''
-List all branches
-''' git branch '''
-''' git branch-v '''
 
-''' git status '''
+'bash
+
+     git mergetool
+List all branches
+
+A ist of extra commands
+'bash
+
+    git branch
+'bash
+
+    git branch-v
+
+'bash
+
+     git status '
 
 List merged commits
-''' git branch--merged '''
+'bash
 
+    git branch--merged
 List unmerged commits
-''' git branch--no-merged '''
+'bash
+
+    git branch--no-merged
